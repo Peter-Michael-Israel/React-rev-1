@@ -1,0 +1,89 @@
+:root {
+    --main-color: #2c3e50;
+    --main-color2: rgb(26, 188, 156);
+    --main-color3: #fff;
+    --main-color4: #1a252f;
+}
+
+.div-img,.div-About{
+    background-color: var(--main-color2);
+}
+.div-About{
+    padding: 198px;
+}
+
+.div-contact{
+    padding: 30px;
+}
+.navbar {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.navbar a {
+    font-weight: 700;
+}
+
+.navbar-nav a {
+    color: var(--main-color3);
+}
+
+.navbar-nav a:hover {
+    color: var(--main-color3);
+}
+
+.location {
+    background-color: var(--main-color);
+    height: 40vh;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+}
+
+footer {
+    background: var(--main-color);
+}
+
+.navbar-nav .active {
+    background:linear-gradient(to right , #364a5f , #5d82a7);
+    color: var(--main-color3) !important;
+    width: auto;
+    height: auto;
+    border-radius:10px;
+}
+.footer{
+    background-color: var(--main-color4);
+}
+.error{
+    padding-top: 575px;
+}
+.icon-circle:hover{
+    background-color:#0b1218;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: 1s all;
+}
+
+
+.img .inner {
+  background-color: rgba(26, 188, 156,0.8);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  cursor: pointer;
+}
+.img:hover .inner {
+  opacity:1;
+}
+.container .btn{
+        background:linear-gradient(to right , #364a5f , #5d82a7);
+}
+
